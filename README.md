@@ -1,5 +1,5 @@
 # TRunPE
-A modified RunPE (process hollowing) technique which avoids SetThreadContext by appending a TLS section which calls the original entrypoint.
+A modified RunPE (process hollowing) technique avoiding the usage of SetThreadContext by appending a TLS section which calls the original entrypoint.
 
 https://winternl.com/trunpe
 
